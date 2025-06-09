@@ -114,9 +114,11 @@ graph TB
 
 ## 🗄️ Modelagem do Banco de Dados
 
-![Diagrama ER - PROFA.AI](docs/database-diagram.png)
+![Diagrama ER - PROFA.AI]
 
-*Diagrama Entity-Relationship mostrando a estrutura completa do banco de dados com relacionamentos entre as tabelas.*
+![der_login_profa_ai_final](https://github.com/user-attachments/assets/cb817ebc-9330-4b13-b8bd-959b86d70715)
+
+
 
 ---
 
