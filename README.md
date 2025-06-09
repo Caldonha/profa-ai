@@ -112,6 +112,24 @@ graph TB
 
 ---
 
+## 🗄️ Modelagem do Banco de Dados
+
+![Diagrama ER - PROFA.AI](docs/database-diagram.png)
+
+*Diagrama Entity-Relationship mostrando a estrutura completa do banco de dados com relacionamentos entre as tabelas.*
+
+---
+
+## 🎥 Demonstração do Sistema
+
+[![PROFA.AI - Demonstração Completa](https://img.youtube.com/vi/VIDEO_ID_AQUI/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_AQUI)
+
+**🔗 [Assistir no YouTube](https://www.youtube.com/watch?v=VIDEO_ID_AQUI)**
+
+*Vídeo explicativo mostrando todas as funcionalidades do sistema, desde o cadastro até o painel administrativo.*
+
+---
+
 ## ✨ Funcionalidades
 
 ### 🔐 Sistema de Autenticação
