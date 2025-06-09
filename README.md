@@ -30,6 +30,88 @@
 
 ---
 
+## 📊 Fluxo do Sistema
+
+```mermaid
+graph TD
+    A["🎓 PROFA.AI<br/>Plataforma Educacional"] --> B["👤 Sistema de Usuários"]
+    A --> C["🏠 Landing Page"]
+    A --> D["🔐 Autenticação"]
+    
+    B --> E["👨‍🏫 Professor<br/>(user)"]
+    B --> F["👑 Admin<br/>(admin)"] 
+    B --> G["⚡ SuperAdmin<br/>(superadmin)"]
+    
+    D --> H["📝 Login/Registro"]
+    H --> I["🏠 Dashboard"]
+    
+    E --> J["📊 Dashboard do Professor"]
+    J --> K["✏️ Editar Perfil"]
+    
+    F --> L["👥 Painel Admin"]
+    L --> M["👤 Gerenciar Usuários"]
+    L --> N["⬆️ Promover/Rebaixar"]
+    L --> O["➕ Criar Usuários"]
+    
+    G --> P["🔧 Controle Total"]
+    P --> Q["👑 Promover Admins"]
+    P --> R["🗑️ Excluir Qualquer Usuário"]
+    
+    style A fill:#4f46e5,stroke:#333,stroke-width:3px,color:#fff
+    style E fill:#10b981,stroke:#333,stroke-width:2px,color:#fff
+    style F fill:#f59e0b,stroke:#333,stroke-width:2px,color:#fff  
+    style G fill:#ef4444,stroke:#333,stroke-width:2px,color:#fff
+```
+
+## 🏗️ Arquitetura Técnica
+
+```mermaid
+graph TB
+    subgraph "🎨 Frontend"
+        A["🌐 Landing Page<br/>Bootstrap + Tailwind"]
+        B["🔐 Sistema de Login"]
+        C["📊 Dashboard"]
+        D["👥 Painel Admin"]
+    end
+    
+    subgraph "⚙️ Backend Laravel 12"
+        E["🛡️ Middleware de Auth"]
+        F["📝 Controllers"]
+        G["🔄 Models (Eloquent)"]
+        H["🚦 Routes"]
+    end
+    
+    subgraph "🗄️ Banco MySQL"
+        I["👤 Tabela Users<br/>• id, name, email<br/>• password, role<br/>• timestamps"]
+    end
+    
+    subgraph "🐳 Infraestrutura"
+        J["🐳 Docker + Laravel Sail"]
+        K["🔧 Composer"]
+        L["📦 NPM/Vite"]
+    end
+    
+    A --> E
+    B --> E  
+    C --> E
+    D --> E
+    
+    E --> F
+    F --> G
+    G --> I
+    H --> F
+    
+    J --> E
+    K --> G
+    L --> A
+    
+    style A fill:#3b82f6,stroke:#333,stroke-width:2px,color:#fff
+    style I fill:#10b981,stroke:#333,stroke-width:2px,color:#fff
+    style J fill:#f59e0b,stroke:#333,stroke-width:2px,color:#fff
+```
+
+---
+
 ## ✨ Funcionalidades
 
 ### 🔐 Sistema de Autenticação
