@@ -122,9 +122,9 @@ graph TB
 
 ## 🎥 Demonstração do Sistema
 
-[![PROFA.AI - Demonstração Completa](https://img.youtube.com/vi/VIDEO_ID_AQUI/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_AQUI)
+[![PROFA.AI - Demonstração Completa](https://img.youtube.com/vi/VIDEO_ID_AQUI/maxresdefault.jpg)](www.youtube.com/watch?v=G0iegWJL_TE&feature=youtu.be)
 
-**🔗 [Assistir no YouTube](https://www.youtube.com/watch?v=VIDEO_ID_AQUI)**
+**🔗 [Assistir no YouTube](www.youtube.com/watch?v=G0iegWJL_TE&feature=youtu.be)**
 
 *Vídeo explicativo mostrando todas as funcionalidades do sistema, desde o cadastro até o painel administrativo.*
 
