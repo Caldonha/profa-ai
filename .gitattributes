@@ -1,0 +1,30 @@
+* text=auto eol=lf
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+
+# Arquivos que devem ser detectados como PHP
+*.php linguist-language=PHP
+*.blade.php linguist-language=Blade
+
+# Arquivos que não devem ser contados nas estatísticas
+/vendor/* linguist-vendored
+/node_modules/* linguist-vendored
+/public/build/* linguist-generated
+/public/hot linguist-generated
+/public/storage/* linguist-generated
+/bootstrap/cache/* linguist-generated
+/storage/* linguist-generated
+
+# Arquivos de documentação
+*.md linguist-documentation
+
+# Definir que este é um projeto PHP
+* linguist-detectable=true
