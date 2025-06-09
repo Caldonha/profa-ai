@@ -195,19 +195,6 @@ Após executar os seeders, você terá acesso aos seguintes usuários:
 
 ---
 
-## 📱 Capturas de Tela
-
-### Landing Page
-> Interface inicial atrativa com explicação completa da plataforma
-
-### Dashboard do Professor  
-> Área pessoal do educador com acesso às ferramentas de criação
-
-### Painel Administrativo
-> Sistema completo de gerenciamento de usuários e permissões
-
----
-
 ## 🏗️ Arquitetura do Sistema
 
 ### Estrutura de Usuários
@@ -268,11 +255,11 @@ Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT). Ve
 
 ## 👨‍💻 Autor
 
-**Desenvolvido com ❤️ para a educação brasileira**
+**Vitor Hugo Caldonha Leme**
 
-- 📧 Email: [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
-- 💼 LinkedIn: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
-- 🐙 GitHub: [Seu GitHub](https://github.com/seu-usuario)
+*Desenvolvido com ❤️ para a educação brasileira*
+
+- 📧 Email: [vitorhugoleme2010@hotmail.com](mailto:vitorhugoleme2010@hotmail.com)
 
 ---
 
